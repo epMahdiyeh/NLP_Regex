@@ -11,6 +11,11 @@ def make_regex_str_from_file(file_name):
 
     return result[:-1]
 
+#def normalize(self, inputs):
+    #         normalized = Normalizer().normalize(inputs)
+    #         samples = sent_tokenize(normalized)
+    #         return samples
+
 def print_output(obj, result):
     print(obj, ":", end=' ')
     answer = ""
